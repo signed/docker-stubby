@@ -3,3 +3,10 @@
 - link:https://github.com/getdnsapi/stubby/blob/develop/stubby.yml.example[sample stubby config]
 - link:https://hub.docker.com/_/debian/?tab=tags&page=2[debian base image]
 - link:https://github.com/docker/hub-feedback/issues/1261[automated arm builds]
+- link:https://github.com/balena-io/qemu/releases/tag/v4.0.0%2Bbalena2[qemu arm emulator]
+
+=== How to build arm images on docker hub
+- link:https://docs.docker.com/docker-hub/builds/[automated builds on hub.docker.com]
+- link:https://hub.docker.com/r/ckulka/multi-arch-example[multi-arch-example] (link:https://github.com/ckulka/docker-multi-arch-example[github])
+- link:https://github.com/rmoriz/multiarch-test[multiarch-test]
+- link:https://windsock.io/automated-docker-image-builds-with-multiple-tags/[automated-docker-image-builds-with-multiple-tags]
