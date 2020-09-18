@@ -1,2 +1,4 @@
-# https://hub.docker.com/_/debian/?tab=tags&page=2
-FROM debian:buster-20200908-slim
+# https://hub.docker.com/r/arm32v7/debian
+FROM arm32v7/debianbuster-20200908-slim
+RUN uname -m
+
