@@ -6,8 +6,14 @@
 - link:https://windsock.io/automated-docker-image-builds-with-multiple-tags/[automated-docker-image-builds-with-multiple-tags]
 
 === How to build arm images on docker hub
+- link:https://github.com/docker/roadmap/issues/109[roadmap item for better arm support]
 - link:https://github.com/docker/hub-feedback/issues/1261[automated arm builds]
 - link:https://github.com/balena-io/qemu/releases/tag/v4.0.0%2Bbalena2[qemu arm emulator]
 - link:https://hub.docker.com/r/ckulka/multi-arch-example[multi-arch-example] (link:https://github.com/ckulka/docker-multi-arch-example[github])
 - link:https://github.com/rmoriz/multiarch-test[multiarch-test]
+- link:https://github.com/docker/hub-feedback/issues/1874#issuecomment-632602168[Add (experimental) buildx support to allow simple multiarch builds]
+- link:https://stackoverflow.com/questions/54578066/how-to-build-a-docker-image-on-a-specific-architecture-with-docker-hub.[]
 
+=== What is buildx
+- link:https://github.com/timbru31/docker-java-node/blob/master/.github/workflows/buildx.yml[]
+- link:https://medium.com/@artur.klauser/building-multi-architecture-docker-images-with-buildx-27d80f7e2408[]
