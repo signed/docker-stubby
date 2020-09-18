@@ -1,0 +1,5 @@
+== A docker image to run stubby on a raspberry pi 2
+
+- link:https://github.com/getdnsapi/stubby/blob/develop/stubby.yml.example[sample stubby config]
+- link:https://hub.docker.com/_/debian/?tab=tags&page=2[debian base image]
+- link:https://github.com/docker/hub-feedback/issues/1261[automated arm builds]
