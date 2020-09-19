@@ -5,6 +5,7 @@ RUN set -e -x && \
     debian_frontend=noninteractive apt-get update && apt-get install -y --no-install-recommends \
       ca-certificates \
       stubby \
+      dnsutils \
       ldnsutils && \
     groupadd --system stubby && \
     useradd --no-log-init --system --gid stubby stubby && \
