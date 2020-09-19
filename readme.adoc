@@ -17,3 +17,6 @@
 === What is buildx
 - link:https://github.com/timbru31/docker-java-node/blob/master/.github/workflows/buildx.yml[]
 - link:https://medium.com/@artur.klauser/building-multi-architecture-docker-images-with-buildx-27d80f7e2408[]
+
+=== Stubby
+- https://blog.sandchaschte.ch/en/posts/pi-hole-with-dns-over-tls/
