@@ -18,7 +18,7 @@ RUN set -e -x && \
 COPY stubby.yml /etc/stubby/
 WORKDIR /home/stubby
 
-EXPOSE 8053/udp
+EXPOSE 5553/udp
 
 USER stubby:stubby
 
