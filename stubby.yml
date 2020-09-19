@@ -191,22 +191,15 @@ dnssec: GETDNS_EXTENSION_TRUE
 upstream_recursive_servers:
   ############################ DEFAULT UPSTREAMS  ################################
   ####### IPv4 addresses ######
-  ### Test servers ###
-  # The Surfnet/Sinodun servers
-  - address_data: 145.100.185.15
-    tls_auth_name: "dnsovertls.sinodun.com"
+  #Digitalcourage https://digitalcourage.de/support/zensurfreier-dns-server
+  - address_data: 46.182.19.48
+    tls_auth_name: "dns2.digitalcourage.de"
     tls_pubkey_pinset:
       - digest: "sha256"
-        value: 62lKu9HsDVbyiPenApnc4sfmSYTHOVfFgL3pyB+cBL4=
-  - address_data: 145.100.185.16
-    tls_auth_name: "dnsovertls1.sinodun.com"
+        value: v7rm6OtQQD3x/wbsdHDZjiDg+utMZvnoX3jq3Vi8tGU=
+  #Dismail https://dismail.de/info.html
+  - address_data: 80.241.218.68
+    tls_auth_name: "fdns1.dismail.de"
     tls_pubkey_pinset:
       - digest: "sha256"
-        value: cE2ecALeE5B+urJhDrJlVFmf38cJLAvqekONvjvpqUA=
-  # The getdnsapi.net server
-  - address_data: 185.49.141.37
-    tls_auth_name: "getdnsapi.net"
-    tls_pubkey_pinset:
-      - digest: "sha256"
-        value: foxZRnIh9gZpWnl+zEiKa0EJ2rdCGroMWm02gaxSc9Q=
-
+        value: MMi3E2HZr5A5GL+badqe3tzEPCB00+OmApZqJakbqUU=
