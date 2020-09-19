@@ -14,6 +14,7 @@ RUN set -e -x && \
       /var/tmp/* \
       /var/lib/apt/lists/*
 
+COPY qemu-arm-static /usr/bin/qemu-arm-static
 COPY stubby.yml /etc/stubby/
 WORKDIR /home/stubby
 
