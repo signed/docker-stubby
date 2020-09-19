@@ -1,5 +1,6 @@
 # https://hub.docker.com/r/arm32v7/debian
 FROM arm32v7/debian:buster-20200908-slim
+COPY qemu-arm-static /usr/bin
 
 RUN set -e -x && \
     debian_frontend=noninteractive apt-get update && apt-get install -y --no-install-recommends \
@@ -14,7 +15,6 @@ RUN set -e -x && \
       /var/tmp/* \
       /var/lib/apt/lists/*
 
-COPY qemu-arm-static /usr/bin/qemu-arm-static
 COPY stubby.yml /etc/stubby/
 WORKDIR /home/stubby
 
