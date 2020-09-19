@@ -6,7 +6,7 @@ RUN set -e -x && \
       ca-certificates \
       stubby \
       ldnsutils && \
-    groupadd -system stubby && \
+    groupadd --system stubby && \
     useradd --no-log-init --system --gid stubby stubby && \
     rm -rf \
       /tmp/* \
